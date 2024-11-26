@@ -109,11 +109,21 @@ li {
 }
 
 .info-item p {
- /* border: 2px solid palevioletred; */
+ font-weight: bold;
 }
 
+/* MAIN: QUOTE SECTION */
 .quote {
- border: 2px solid yellow;
+ /* border: 2px solid yellow; */
+ background-color: #f2e8cf;
+ height: 400px;
+ text-align: center;
+ padding-top: 100px;
+}
+
+.quote p {
+ font-size: 36px;
+ color: #432818;
 }
 
 .action {
