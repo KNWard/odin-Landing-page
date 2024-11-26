@@ -69,8 +69,46 @@ li {
 
 /* END HERO SECTION */
 
+/* MAIN: INFO SECTION */
+
 .info{
- border: 2px solid orange;
+ /* border: 2px solid orange; */
+ background-color: #BB9457;
+ padding-top: 20px;
+ height: 500px;
+}
+
+.info h2 {
+ text-align: center;
+ font-size: 36px;
+}
+
+.info-container {
+ /* border: 2px solid blue; */
+ width: 800px;
+ margin: auto;
+ /* padding: 20px; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.info-item {
+ /* border: 2px dotted rebeccapurple; */
+ width: 200px;
+ text-align: center;
+ display: block;
+}
+
+.info-item img {
+ height: 150px;
+ width: 170px;
+ border: 4px solid #6F1D1B;
+ border-radius: 15px;
+}
+
+.info-item p {
+ /* border: 2px solid palevioletred; */
 }
 
 .quote {
