@@ -126,8 +126,26 @@ li {
  color: #432818;
 }
 
+
+/* MAIN: ACTION SECTION */
 .action {
- border: 2px solid green;
+ /* border: 2px solid green; */
+ background-color: #BB9457;
+ height: 300px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.action-content {
+ background-color: #6F1D1B;
+ border-radius: 10px;
+ width: 800px;
+ margin: auto;
+ padding: 20px 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 footer {
