@@ -5,7 +5,6 @@ body {
 
 /* HERO SECTION */
 header {
- /* border: 2px solid red; */
  background-color: #432818;
  color: #FFE6A7;
  padding-bottom: 40px;
@@ -13,7 +12,6 @@ header {
 
 /* NAVIGATION */
 .nav {
- /* border: 2px solid purple; */
  display: flex;
  justify-content: space-around;
  align-items: center;
@@ -26,18 +24,27 @@ ul {
 
 li {
  list-style-type: none;
- text-decoration: none;
  margin: 0 8px;
+ font-size: 20px;
+ font-weight: bold;
+}
+
+li a {
+ text-decoration: none;
+ color: #BB9457;
+}
+
+li a:hover {
  font-size: 18px;
 }
 
 .logo {
  font-size: 24px;
+ font-weight: bold;
 }
 
 /* HERO CONTENT */
 .hero-content {
- /* border: 2px solid blue; */
  margin: 80px 30px;
  display: flex;
  justify-content: center;
@@ -45,7 +52,6 @@ li {
 }
 
 .hero-content-text {
- /* border: 2px solid green; */
  width: 30%;
 }
 
@@ -59,20 +65,27 @@ li {
 }
 
 .hero-btn {
- width: 90px;
- padding: 5px;
+ width: 95px;
+ padding: 8px;
  border: none;
  border-radius: 5px;
  background-color: #6F1D1B;
  color: #FFE6A7;
+ font-size: 14px;
+ font-weight: bold;
+}
+
+.hero-btn:hover {
+ cursor: pointer;
+ background-color: #BB9457;
+ color: #6F1D1B;
 }
 
 /* END HERO SECTION */
 
-/* MAIN: INFO SECTION */
 
+/* MAIN: INFO SECTION */
 .info{
- /* border: 2px solid orange; */
  background-color: #BB9457;
  padding-top: 20px;
  height: 500px;
@@ -85,17 +98,14 @@ li {
 }
 
 .info-container {
- /* border: 2px solid blue; */
  width: 800px;
  margin: auto;
- /* padding: 20px; */
  display: flex;
  justify-content: center;
  align-items: center;
 }
 
 .info-item {
- /* border: 2px dotted rebeccapurple; */
  width: 200px;
  text-align: center;
  display: block;
@@ -108,13 +118,18 @@ li {
  border-radius: 15px;
 }
 
+.info-item img:hover {
+ cursor: pointer;
+ height: 140px;
+ width: 160px;
+}
+
 .info-item p {
  font-weight: bold;
 }
 
 /* MAIN: QUOTE SECTION */
 .quote {
- /* border: 2px solid yellow; */
  background-color: #f2e8cf;
  height: 400px;
  text-align: center;
@@ -129,7 +144,6 @@ li {
 
 /* MAIN: ACTION SECTION */
 .action {
- /* border: 2px solid green; */
  background-color: #BB9457;
  height: 300px;
  display: flex;
@@ -142,12 +156,39 @@ li {
  border-radius: 10px;
  width: 800px;
  margin: auto;
- padding: 20px 0;
+ padding: 20px ;
  display: flex;
- justify-content: center;
+ justify-content: space-around;
  align-items: center;
 }
 
+.action-text {
+ color: #BB9457;
+}
+
+.action-btn {
+ width: 100px;
+ padding: 8px;
+ border: 2px solid #BB9457;
+ border-radius: 5px;
+ background-color: transparent;
+ color: #FFE6A7;
+ font-size: 14px;
+ font-weight: bold;
+}
+
+.action-btn:hover {
+ cursor: pointer;
+ background-color: #BB9457;
+ color: #6F1D1B;
+}
+
+
+/* FOOTER */
 footer {
- border: 2px solid blue;
+ background-color: #432818;
+ color: #BB9457;
+ margin: auto;
+ padding: 13px;
+ text-align: center;
 }
